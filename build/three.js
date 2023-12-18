@@ -5159,6 +5159,8 @@ console.warn( 'Scripts "build/three.js" and "build/three.min.js" are deprecated 
 
 		constructor( center = new Vector3(), radius = - 1 ) {
 
+			this.isSphere = true;
+
 			this.center = center;
 			this.radius = radius;
 
